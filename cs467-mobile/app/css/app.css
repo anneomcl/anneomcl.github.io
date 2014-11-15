@@ -1,0 +1,22 @@
+/* app css stylesheet */
+
+#search {
+	/*margin-left: 40%;*/
+	margin-top: 5em;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 150px;
+    height:150px;
+    padding-top:0;
+}
+
+.song-block {
+	height:100px;
+    width:100px;
+    float:left;
+    margin-left:0px;
+    margin-top:0px;
+    color: white
+}
