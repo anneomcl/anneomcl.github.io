@@ -6,7 +6,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- I recommend you host this file on your own, since this will change without warning -->
 <script src="datamaps/datamaps.world.min.js"></script>
-<div id="container1" style="position: relative; width: 80%; height: 600px;"></div>
+<div id="container1" style="position: relative; width: 800px; height: 600px;"></div>
 
 
 <script>
@@ -76,7 +76,7 @@
                     if(latitude[i])
                     {
                         bubbles.push({'name' : names[i], 'latitude' : latitude[i],
-                            'longitude' : longitude[i], 'radius': size[i], 'fillKey' : 'gt50'});
+                            'longitude' : longitude[i], 'radius': size[i]*1.5, 'fillKey' : 'gt50'});
                     }
                 }
             }
